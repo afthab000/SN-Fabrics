@@ -50,7 +50,7 @@ $(document).ready(function(){
         
         newSareeImg.style.backgroundImage = "url("+ newArrivals[i] +")";
         newArrivalItem.appendChild(newSareeImg);
-        newArrivalItem.appendChild(sareeDetails);
+
         
         $('.new-arrivals').append(newArrivalItem);
     }

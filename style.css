@@ -4,9 +4,6 @@ body {
     font-family: sans-serif;
     height: 100%;
 }
-
-
-
 ul {
     margin: 0;
     padding: 0;
@@ -30,7 +27,7 @@ ul {
     top: 0;
     left: 0;
     line-height: 80px;
-      background: url(img/SN3.png) 0 0 repeat;
+    background: url(img/SN3.png) 0 0 repeat;
     background-size: 103%;
     background-position: center;
     z-index: 100;
@@ -50,11 +47,12 @@ ul {
     position: absolute;
     top: 0;
     right: 20px;
+     margin: 0 auto;
 }
 
 .header-menu-items {
     display: inline;
-    margin-left: 20px;
+     margin: 0 auto;
 }
 .header-menu-items a{
     color: gold;
@@ -88,7 +86,9 @@ ul {
     padding: 15px 0;
     text-align: center;    
 }
-.dropdown-menu-items a:focus, .dropdown-menu-items a:hover,.dropdown-menu-items a:active{
+.dropdown-menu-items a:focus, 
+.dropdown-menu-items a:hover,
+.dropdown-menu-items a:active {
     text-decoration: none;
      background-color: goldenrod;
     color: darkslategrey;
@@ -99,35 +99,34 @@ ul {
 }
 .side-nav {
     width: 20%;
-
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-
     text-align: center;
-
- 
-    
 }
 .sidebar-bg{
-
-    position:relative;
+    width: 20%;
+    position:fixed;
     top: 0; 
     left: 0;
-    background-color: white;
+    bottom: 0;
+    z-index: 10;
 }
 .sidebar-bg img{
     width: 100%;
+    z-index: 10;
 }
 
 .logo{
     position: absolute;
-    top: 10px; left: 20px;
+    top: 5%; 
+     margin: 0 auto;
+    z-index: 30;
 }
 .logo img{
-    margin-top: 50px;
+  
      width: 90%;
     
 }
@@ -147,18 +146,18 @@ ul {
 
 .menu {
     text-align: center;
-width 70%;
-    margin: auto;
-    display: inline-table;
-        position: absolute;
-        top: 200px; left: 50px;
+    width 70%;
+    margin: 100% 15%;
+    z-index: 30;
+    position: relative;
+    
 }
 
 .menu-item a{
     display: block;
     padding: 20px 15px;
     text-align: center;
-    width: 150px;
+    width: 100%;
     cursor: pointer;
     color: gold;
     text-decoration: none;
@@ -176,7 +175,7 @@ width 70%;
 
 .main-container {
     width: 100%;
-    padding-left: 270px;
+    padding-left: 20%;
     padding-top: 20px;
     z-index: 10;
     background-image: url(img/main_bg.jpg);
@@ -199,7 +198,7 @@ width 70%;
 
 .home-top-design img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .content {
